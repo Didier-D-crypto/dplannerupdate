@@ -1,0 +1,19 @@
+{
+  "name": "dayplanner5",
+  "version": "1.0.0",
+  "description": "scheduler for day plan",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Didier-D-crypto/dplannerupdate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Didier-D-crypto/dplannerupdate/issues"
+  },
+  "homepage": "https://github.com/Didier-D-crypto/dplannerupdate#readme"
+}
