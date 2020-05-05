@@ -47,6 +47,4 @@ $(document).ready(function() {
         return time;
         };   
 });
-
-
 // Have a function to setInterval as well to save button
