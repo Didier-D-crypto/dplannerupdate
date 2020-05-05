@@ -11,8 +11,15 @@ $(document).ready(function() {
     $.each(didier, function(time, input) {    
         $("#" + time).children(".description").val(input);
     })
-
     $("#currentDay").text(moment().format("dddd, MMMM Do"));
+
+    
+    // function formatAMPM(hours) {
+    //     var ampm = hours >= 12 ? 'pm' : 'am';
+    //     hours = hours % 12;
+    //     hours = hours ? hours : 12;
+    //     return hours + ampm;
+    // }
 
     var currentTime = getNow();
     var hour = currentTime.charAt(0) + currentTime.charAt(1);
@@ -42,3 +49,4 @@ $(document).ready(function() {
 });
 
 
+// Have a function to setInterval as well to save button
